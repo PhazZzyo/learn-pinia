@@ -1,0 +1,1 @@
+import{u,o as a,c as r,a as s,t as c,b as e}from"./index-208694a4.js";const _={class:"about"},i=s("h1",null,"About",-1),d={__name:"AboutView",setup(l){const t=u();return(p,o)=>(a(),r("div",_,[i,s("button",{class:"counterButton",onClick:o[0]||(o[0]=(...n)=>e(t).increaseCount&&e(t).increaseCount(...n))},c(e(t).count),1)]))}};export{d as default};
