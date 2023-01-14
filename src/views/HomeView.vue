@@ -9,10 +9,6 @@
     <div class="oddOrEven">
       <h2>This counter is: {{ storeCounter.oddOrEven }}</h2>
     </div>
-    <div class="editCounter">
-      <h3>Edit counter</h3>
-      <input type="number" v-model="storeCounter.count">
-    </div>
   </div>
 </template>
 
@@ -28,9 +24,8 @@ const storeCounter = useCounterStore()
   text-align: center;
 }
 
-.count {
-  font-size: 48px;
-  margin: 20px;
+.buttons {
+  border-top: thick double var(--color-border);
 }
 
 .buttons button {
@@ -41,11 +36,6 @@ const storeCounter = useCounterStore()
 
 .oddOrEven {
   padding: 30px;
-  border-top: thick double hsla(160, 100%, 37%, 1);
-}
-
-.editCounter {
-  padding: 30px;
-  border-top: thick solid hsla(160, 100%, 37%, 1);
+  text-decoration: underline;
 }
 </style>

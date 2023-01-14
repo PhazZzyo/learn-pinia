@@ -9,6 +9,9 @@ import { useCounterStore } from '@/stores/counter'
 const storeCounter = useCounterStore()
 </script>
 
-<style lang="scss" scoped>
-
+<style>
+.count {
+    font-size: 48px;
+    margin: 20px;
+}
 </style>
